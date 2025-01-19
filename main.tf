@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "projectbucket" {
   terraform { 
     backend s3 {
     # Replace this with your bucket name!
-    bucket         = "practice-bucket-jan25"
+    bucket         = "projectbucket"
     key            = "global/s3/terraform.tfstate"
     region         = "eu-west-2"
   }
