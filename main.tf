@@ -10,6 +10,9 @@ resource "aws_s3_bucket" "practice-bucket-jan25" {
   resource "aws_s3_bucket" "practice-bucket-jan27" {
   bucket = "practice-bucket-jan27"
   }
+  resource "aws_s3_bucket" "terraformbucketjb" { 
+    bucket = "terraformbucketjb" 
+  }
 
 
   terraform { 
