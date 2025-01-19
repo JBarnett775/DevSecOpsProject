@@ -15,7 +15,7 @@ IaC scanning ensures that the infrastructure configuration code adheres to secur
 - **Trivy**: Provides automated IaC scanning to identify security misconfigurations across AWS, Azure, and GCP cloud environments.
 ### 2. Static Application Security Testing (SAST)
 SAST involves analyzing the application's source code or binary code without executing it. This is done to identify security vulnerabilities, coding errors, and other issues in the codebase
-#### Tools:
+#### Tools: f
 - **CodeQl**: Provides static code analysis to identify bugs, vulnerabilities, and code smells in various programming languages.
 ### 3. Software Composition Analysis (SCA)
 SCA focuses on identifying and managing open-source components and third-party libraries used in the application. It helps in detecting known vulnerabilities in dependencies.
