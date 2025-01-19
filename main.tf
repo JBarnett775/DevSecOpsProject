@@ -7,6 +7,7 @@ resource "aws_s3_bucket" "practice-bucket-jan25" {
 resource "aws_s3_bucket" "newbuckettest" {
   bucket = "newbuckettest"
   }
+  
   terraform { 
     backend s3 {
     # Replace this with your bucket name!
