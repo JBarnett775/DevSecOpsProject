@@ -4,11 +4,6 @@ provider "aws" {
 resource "aws_s3_bucket" "practice-bucket-jan25" {
   bucket = "practice-bucket-jan25"
   }
-  resource "aws_s3_bucket" "nbt" {
-  bucket = "nbt"
-  } 
-
-
   terraform { 
     backend s3 {
     # Replace this with your bucket name!
