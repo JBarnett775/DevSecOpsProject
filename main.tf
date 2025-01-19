@@ -7,8 +7,8 @@ resource "aws_s3_bucket" "practice-bucket-jan25" {
   resource "aws_s3_bucket" "practice-bucket-jan26" {
   bucket = "practice-bucket-jan26"
   }
-   resource "aws_s3_bucket" "terraform-bucket" {
-  bucket = "terraform-bucket"
+   resource "aws_s3_bucket" "terraformbucket" {
+  bucket = "terraformbucket"
   }
 
   terraform { 
