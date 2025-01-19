@@ -4,9 +4,10 @@ provider "aws" {
 resource "aws_s3_bucket" "practice-bucket-jan25" {
   bucket = "practice-bucket-jan25"
   }
-resource "aws_s3_bucket" "nb" {
+  resource "aws_s3_bucket" "nb" {
   bucket = "nb"
-  }
+  } 
+
 
   terraform { 
     backend s3 {
